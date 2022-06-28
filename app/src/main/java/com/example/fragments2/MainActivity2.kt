@@ -4,6 +4,9 @@ package com.example.fragments2
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.fragments2.databinding.ActivityMain2Binding
+import com.example.fragments2.fragments.FifthFragment
+import com.example.fragments2.fragments.ForthFragment
+import com.example.fragments2.fragments.ThirdFragment
 
 class MainActivity2 : AppCompatActivity() {
     private lateinit var binding: ActivityMain2Binding
