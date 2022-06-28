@@ -61,6 +61,7 @@
         android:id="@+id/btnFragDialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onClickDialog"
         android:text="FRAGMENT DIALOG"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnVolver"

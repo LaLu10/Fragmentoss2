@@ -20,8 +20,6 @@ class FifthFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         _binding= FragmentFifthBinding.inflate(inflater,container,false)
-
-        // Inflate the layout for this fragment
         return binding.root
     }
 
@@ -45,7 +43,7 @@ class FifthFragment : Fragment() {
                 Snackbar.make(binding.root,"CANCEL CLICKED",Snackbar.LENGTH_LONG).setBackgroundTint(Color.RED).show()
             }
             R.id.check ->{
-                Snackbar.make(binding.root,"CKECK CLICKED",Snackbar.LENGTH_LONG).setBackgroundTint(Color.GREEN).setTextColor(Color.BLACK).show()
+                Snackbar.make(binding.root,"CHECK CLICKED",Snackbar.LENGTH_LONG).setBackgroundTint(Color.GREEN).setTextColor(Color.BLACK).show()
             }
         }
         return super.onOptionsItemSelected(item)
